@@ -443,7 +443,7 @@ $sysinfo = OceanWP_Theme_Panel_System_Status::compile_system_status();
         $posting['soap_client']['name'] = esc_html__('SoapClient', 'ocean-extra');
         $posting['soap_client']['help'] = esc_attr__('Some webservices like shipping use SOAP to get information from remote servers, for example, live shipping quotes from FedEx require SOAP to be installed.', 'ocean-extra');
 
-        if (true === $sysinfo['soap_client']) {
+        if ('true' === $sysinfo['soap_client']) {
             $posting['soap_client']['success'] = true;
         } else {
             $posting['soap_client']['success'] = false;
@@ -453,7 +453,7 @@ $sysinfo = OceanWP_Theme_Panel_System_Status::compile_system_status();
         $posting['dom_document']['name'] = esc_html__('DOMDocument', 'ocean-extra');
         $posting['dom_document']['help'] = esc_attr__('HTML/Multipart emails use DOMDocument to generate inline CSS in templates.', 'ocean-extra');
 
-        if (true === $sysinfo['dom_document']) {
+        if ('true' === $sysinfo['dom_document']) {
             $posting['dom_document']['success'] = true;
         } else {
             $posting['dom_document']['success'] = false;
@@ -464,7 +464,7 @@ $sysinfo = OceanWP_Theme_Panel_System_Status::compile_system_status();
         $posting['gzip']['name'] = esc_html__('GZip', 'ocean-extra');
         $posting['gzip']['help'] = esc_attr__('GZip (gzopen) is used to open the GEOIP database from MaxMind.', 'ocean-extra');
 
-        if (true === $sysinfo['gzip']) {
+        if ('true' === $sysinfo['gzip']) {
             $posting['gzip']['success'] = true;
         } else {
             $posting['gzip']['success'] = false;

@@ -3,7 +3,7 @@ Contributors: oceanwp, apprimit, wpfleek, benjaminprojas, cristianrossi
 Tags: widgets, meta box, metaboxes, metabox, oceanwp
 Requires at least: 5.9
 Tested up to: 7.1
-Stable tag: 2.6.4
+Stable tag: 2.6.5
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -220,6 +220,15 @@ You can report problems on [this support forum](https://wordpress.org/support/pl
 11. WordPress Menu icons support feature, various icon libraries support.
 
 == Changelog ==
+
+= 2.6.5 - NOV 25 2026 =
+- Added: Setup Wizard: Main Toolbar: Tooltips and accessible labels for 'Sync', 'Dark/Light mode', and 'Exit/Close'.
+- Improved: Setup Wizard: Templates Gallery: Templates display in 5 columns from 1800px width for a compact preview.
+- Improved: Setup Wizard: Dark Mode: New color palette for a more comfortable, cohesive design.
+- Improved: Setup Wizard: Individual plugin cards for a compact and consistent design.
+- Improved: Setup Wizard: Individual plugin cards conditional order logic for a compact and consistent layout.
+- Fixed: Setup Wizard: Required Plugins screen: Summary separator broken HTML encoding.
+- Fixed: OceanWP Panel: System Info: Broken logic returns incorrect results for 'SoapClient', 'DOMDocument', and 'GZip' options.
 
 = 2.6.4 - NOV 20 2026 =
 - Improved: Setup Wizard: Layout, style, and descriptions for a smoother UX.

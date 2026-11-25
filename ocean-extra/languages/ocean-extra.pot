@@ -2,35 +2,35 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Ocean Extra 2.6.4\n"
+"Project-Id-Version: Ocean Extra 2.6.5\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ocean-extra\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-11-20T15:47:58+00:00\n"
+"POT-Creation-Date: 2026-11-25T13:33:37+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: ocean-extra\n"
 
 #. Plugin Name of the plugin
-#: ocean-extra.php:5
+#: ocean-extra.php
 msgid "Ocean Extra"
 msgstr ""
 
 #. Plugin URI of the plugin
-#: ocean-extra.php:7
+#: ocean-extra.php
 msgid "https://oceanwp.org/extension/ocean-extra/"
 msgstr ""
 
 #. Description of the plugin
-#: ocean-extra.php:9
+#: ocean-extra.php
 msgid "Add extra features and flexibility to your OceanWP theme for a turbocharged premium experience and full control over every aspect of your website."
 msgstr ""
 
 #. Author of the plugin
-#: ocean-extra.php:13
+#: ocean-extra.php
 #: includes/admin-bar/admin-bar.php:53
 #: includes/dashboard.php:72
 #: includes/update-message.php:83
@@ -39,7 +39,7 @@ msgid "OceanWP"
 msgstr ""
 
 #. Author URI of the plugin
-#: ocean-extra.php:15
+#: ocean-extra.php
 msgid "https://oceanwp.org/"
 msgstr ""
 
@@ -5659,8 +5659,8 @@ msgstr ""
 #: includes/menu-icons/includes/settings.php:603
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/modal/modules/view-templates.js:438
-#: includes/onboarding/oe-sw-src/app/modal/modules/view-templates.js:443
+#: includes/onboarding/oe-sw-src/app/modal/modules/view-templates.js:455
+#: includes/onboarding/oe-sw-src/app/modal/modules/view-templates.js:460
 #: includes/onboarding/oe-sw-src/app/modal/modules/view-templates copy.js:506
 #: includes/onboarding/oe-sw-src/app/modal/modules/view-templates copy.js:511
 msgid "Preview"
@@ -7237,7 +7237,7 @@ msgstr ""
 #: includes/panel/assets/class-plugin-installer.php:236
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1404
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1435
 msgid "Get This Plugin"
 msgstr ""
 
@@ -7333,8 +7333,8 @@ msgstr ""
 #: includes/panel/demos.php:110
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:867
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:992
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:899
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1023
 msgid "Active"
 msgstr ""
 
@@ -9702,6 +9702,32 @@ msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
+#: includes/onboarding/oe-sw-src/app/components/close-confirmation/index.js:81
+msgid "You're about to exit the Setup Wizard"
+msgstr ""
+
+#: includes/onboarding/assets/dist/install-demo.js:1
+#: includes/onboarding/assets/dist/setup-wizard.js:1
+#: includes/onboarding/oe-sw-src/app/components/close-confirmation/index.js:84
+msgid "Your current setup session will end. Any changes already made to your website may remain. You can launch the Setup Wizard again whenever you're ready."
+msgstr ""
+
+#: includes/onboarding/assets/dist/install-demo.js:1
+#: includes/onboarding/assets/dist/setup-wizard.js:1
+#: includes/onboarding/oe-sw-src/app/components/close-confirmation/index.js:88
+msgid "Stay in Wizard"
+msgstr ""
+
+#: includes/onboarding/assets/dist/install-demo.js:1
+#: includes/onboarding/assets/dist/setup-wizard.js:1
+#: includes/onboarding/oe-sw-src/app/components/close-confirmation/index.js:91
+#: includes/onboarding/oe-sw-src/app/modal/modules/final.jsx:50
+#: includes/onboarding/oe-sw-src/app/modal/modules/site-type.js:48
+msgid "Exit to WordPress dashboard"
+msgstr ""
+
+#: includes/onboarding/assets/dist/install-demo.js:1
+#: includes/onboarding/assets/dist/setup-wizard.js:1
 #: includes/onboarding/oe-sw-src/app/components/media-upload/index.js:49
 #: includes/post-settings/assets/index.js:1
 #: includes/post-settings/assets/index.js:3
@@ -9718,141 +9744,141 @@ msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:862
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1330
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:894
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1361
 msgid "Other"
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:868
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:994
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:900
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1025
 msgid "Downloading..."
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:869
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:995
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:901
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1026
 msgid "Activating..."
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:870
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:996
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:902
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1027
 msgid "Checking..."
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:871
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:903
 msgid "Status unavailable"
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:872
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:904
 msgid "Requires Pro Bundle"
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:873
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:993
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:905
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1024
 msgid "Installed · Inactive"
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:875
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:907
 msgid "Will be installed"
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:876
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:908
 msgid "Skipped"
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:926
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1017
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:952
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1048
 msgid "Include"
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:943
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:967
 msgid "Get this plugin with OceanWP Pro Bundle"
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:954
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:978
 msgid "Required plugin status summary"
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:955
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:979
 msgid "active"
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:956
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:980
 msgid "to install"
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:957
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:981
 msgid "needs Pro"
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:962
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:963
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:986
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:987
 msgid "Needs your attention"
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:969
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:970
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1000
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1001
 msgid "Already active"
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1034
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1065
 msgid "Popular Essentials for Growth"
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1034
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1065
 msgid "SEO, forms, consent, AI, analytics, and more."
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1035
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1066
 msgid "OceanWP Add-ons"
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1035
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1066
 msgid "Free extensions built to work with your theme."
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1420
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1451
 #: includes/onboarding/oe-sw-src/app/modal/modules/cleanup.js:188
 #: includes/onboarding/oe-sw-src/app/modal/modules/colors.js:235
 #: includes/onboarding/oe-sw-src/app/modal/modules/consent.jsx:103
@@ -9867,7 +9893,7 @@ msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1430
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1461
 #: includes/onboarding/oe-sw-src/app/modal/modules/cleanup.js:200
 #: includes/onboarding/oe-sw-src/app/modal/modules/colors.js:247
 #: includes/onboarding/oe-sw-src/app/modal/modules/logo.js:108
@@ -9878,7 +9904,7 @@ msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1438
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1469
 #: includes/onboarding/oe-sw-src/app/modal/existing/cleanup.js:74
 #: includes/onboarding/oe-sw-src/app/modal/modules/cleanup.js:118
 #: includes/onboarding/oe-sw-src/app/modal/modules/cleanup.js:207
@@ -9894,7 +9920,7 @@ msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1449
+#: includes/onboarding/oe-sw-src/app/components/plugin-installer/index.js:1480
 msgid "Install & Activate"
 msgstr ""
 
@@ -10030,11 +10056,9 @@ msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/index.js:215
 #: includes/onboarding/oe-sw-src/app/index copy.js:176
 #: includes/onboarding/oe-sw-src/app/modal/existing/cleanup.js:89
 #: includes/onboarding/oe-sw-src/app/modal/modules/cleanup.js:249
-#: includes/onboarding/oe-sw-src/install-demo/index.js:224
 #: includes/post-settings/assets/index.js:1
 #: includes/post-settings/oe-ps-src/sidebar/settings/reset-options/reset.js:141
 msgid "Cancel"
@@ -10057,12 +10081,6 @@ msgstr ""
 #: includes/onboarding/assets/dist/setup-wizard.js:1
 #: includes/onboarding/oe-sw-src/app/modal/modules/site-type.js:14
 msgid "We will tailor the next steps to your site, so you only see what you need."
-msgstr ""
-
-#: includes/onboarding/assets/dist/install-demo.js:1
-#: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/modal/modules/site-type.js:48
-msgid "Exit to WP Dashboard"
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
@@ -10182,7 +10200,7 @@ msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/modal/modules/view-templates.js:460
+#: includes/onboarding/oe-sw-src/app/modal/modules/view-templates.js:450
 #: includes/onboarding/oe-sw-src/app/modal/modules/view-templates copy.js:528
 msgid "Import Template"
 msgstr ""
@@ -10618,12 +10636,6 @@ msgstr ""
 #: includes/onboarding/assets/dist/setup-wizard.js:1
 #: includes/onboarding/oe-sw-src/app/modal/modules/final.jsx:39
 msgid "View your website"
-msgstr ""
-
-#: includes/onboarding/assets/dist/install-demo.js:1
-#: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/modal/modules/final.jsx:50
-msgid "Exit to WordPress dashboard"
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
@@ -11121,24 +11133,27 @@ msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/modal/header.jsx:119
+#: includes/onboarding/oe-sw-src/app/modal/header.jsx:112
+#: includes/onboarding/oe-sw-src/app/modal/header.jsx:118
+msgid "Sync the templates library"
+msgstr ""
+
+#: includes/onboarding/assets/dist/install-demo.js:1
+#: includes/onboarding/assets/dist/setup-wizard.js:1
+#: includes/onboarding/oe-sw-src/app/modal/header.jsx:123
 msgid "Select Builder"
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/index.js:209
-#: includes/onboarding/oe-sw-src/app/index copy.js:170
-#: includes/onboarding/oe-sw-src/install-demo/index.js:218
-msgid "Are you sure you want to exit the setup wizard?"
+#: includes/onboarding/oe-sw-src/app/modal/header.jsx:151
+msgid "Exit the Setup Wizard"
 msgstr ""
 
 #: includes/onboarding/assets/dist/install-demo.js:1
 #: includes/onboarding/assets/dist/setup-wizard.js:1
-#: includes/onboarding/oe-sw-src/app/index.js:212
-#: includes/onboarding/oe-sw-src/app/index copy.js:173
-#: includes/onboarding/oe-sw-src/install-demo/index.js:221
-msgid "Yes, Exit"
+#: includes/onboarding/oe-sw-src/app/modal/header.jsx:156
+msgid "Exit"
 msgstr ""
 
 #: includes/onboarding/oe-sw-src/app/components/device-type/index.js:52
@@ -11197,6 +11212,14 @@ msgstr ""
 #: includes/post-settings/oe-ps-src/controls/color-picker/index.js:226
 #: includes/post-settings/oe-ps-src/controls/typography/reset.js:48
 msgid "Reset color"
+msgstr ""
+
+#: includes/onboarding/oe-sw-src/app/index copy.js:170
+msgid "Are you sure you want to exit the setup wizard?"
+msgstr ""
+
+#: includes/onboarding/oe-sw-src/app/index copy.js:173
+msgid "Yes, Exit"
 msgstr ""
 
 #: includes/onboarding/oe-sw-src/app/modal/existing/cleanup.js:40
